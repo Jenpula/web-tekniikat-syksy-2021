@@ -13,3 +13,13 @@ let p2 = article.lastElementChild
 let temp = p1.textContent
 p1.textContent = p2.textContent
 p2.textContent = temp
+
+// Add unordered list inside element of id=“content” with 5 list items. Each item contains text and number like this. Use for-loop to set numbering.
+let content = document.getElementById("content");
+let ul = document.createElement("ul")
+content.appendChild(ul)
+for(let i = 1; i < 6; i++) {
+    let li = document.createElement("li")
+    li.textContent = "Number " + i;
+    ul.appendChild(li)
+}
