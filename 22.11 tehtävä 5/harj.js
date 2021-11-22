@@ -34,3 +34,11 @@ console.log(positive);
 let name2 = ["Jukka", "Lemmikki", "Mansikki", "Tuulikkki", "Tarmo"];
 let tNames = name2.filter(name2 => name2.length>8 && name2[0]==="T");
 console.log(tNames);
+
+//6. Check if all of the names in an array are longer than 0 letters. It this is true, calculate the cumulative sum of all the letters in the names.
+if(names.every( sana => sana.length>0)) {
+    let length = names.map(sana => sana.length);
+
+    let summa = length.reduce( (previous, current) =>previous+current );
+    console.log(summa);
+}
