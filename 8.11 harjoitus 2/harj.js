@@ -60,3 +60,11 @@ for(const e of element) {
     let hr = document.createElement("hr");
     e.parentElement.insertBefore(hr, e);
 }
+
+// g Add span element with text content
+elems = document.querySelectorAll("div>:first-child");
+for(const e of elems) {
+    let span = document.createElement("span")
+    span.textContent = "**"
+    e.parentElement.insertBefore(span, e)
+}
