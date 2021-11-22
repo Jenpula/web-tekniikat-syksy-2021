@@ -13,4 +13,14 @@ function addNote(){
     //Note lisätään tekstinä p-elementtiin textareasta
     let p = document.createElement("p");
     p.textContent = note.value
+
+      //Jos checkbox on valittu, lisätään important muotoilu
+      if(checkbox.checked){
+        h3.classList.add("important")
+        p.classList.add("important")
+    }
+
+    //Kaikki elementit uusina bodyn sisälle
+    body.append(h3,p, document.createElement("hr"))
+
 }
