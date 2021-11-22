@@ -1,3 +1,10 @@
-.colored{
+div{
     background-color: aquamarine;
+}
+.colored{
+    background-color: brown;
+}
+.important{
+    font-weight: bold;
+    color: red;
 }
