@@ -53,3 +53,10 @@ rivi2_data2.innerHTML = "John";
 rivi2.appendChild(rivi2_data1);
 rivi2.appendChild(rivi2_data2);
 tbody.appendChild(rivi2);
+
+// f make horizontal line before each child of id="content"
+let element = document.querySelectorAll("#content>*")
+for(const e of element) {
+    let hr = document.createElement("hr");
+    e.parentElement.insertBefore(hr, e);
+}
