@@ -29,3 +29,8 @@ let positive = numbers2.filter(function(x) {
     return x > 0;
 })
 console.log(positive);
+
+// 5. Use filter to get names that are longer than 8 and start with T
+let name2 = ["Jukka", "Lemmikki", "Mansikki", "Tuulikkki", "Tarmo"];
+let tNames = name2.filter(name2 => name2.length>8 && name2[0]==="T");
+console.log(tNames);
