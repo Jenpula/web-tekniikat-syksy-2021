@@ -7,3 +7,8 @@ let lambda = (x) => {
     console.log("numbers" + x);
 }
 lambda(numbers);
+
+//2. Use Map to get 80% off all the prices in the array. (Make a test array with e.g. 5 different prices.)
+let prices =[40, 50, 20, 60, 10];
+let multiple = prices.map( item => item * 0.8);
+console.log(multiple);
