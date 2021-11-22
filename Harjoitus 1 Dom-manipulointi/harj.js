@@ -19,3 +19,9 @@ var allNodes = body.querySelectorAll("*")
 for (x of allNodes) {
     console.log(x.nodeName)
 }
+//Harj e
+var article = document.querySelector("article")
+
+for(a of article.querySelectorAll("p")){
+    console.log("**" + a.textContent);
+}
