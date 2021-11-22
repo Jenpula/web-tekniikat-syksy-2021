@@ -12,3 +12,13 @@ lambda(numbers);
 let prices =[40, 50, 20, 60, 10];
 let multiple = prices.map( item => item * 0.8);
 console.log(multiple);
+
+//3. Use Map-function to replace all the John names with Matti in an array of names
+let names = ["John", "Pekka", "Kasperi", "John", "Esko"];
+names = names.map(name => {
+    if(name==="John") {;
+        return "Matti"; 
+    }   
+    return name;
+});
+console.log(names);
