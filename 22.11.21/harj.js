@@ -22,3 +22,10 @@ names = names.map(name => {
     return name;
 });
 console.log(names);
+
+//4. Use filter to get only positive values from number array
+let numbers2 = [-2, 1, 5, 8];
+let positive = numbers2.filter(function(x) {
+    return x > 0;
+})
+console.log(positive);
