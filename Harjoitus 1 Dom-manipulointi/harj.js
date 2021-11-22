@@ -11,3 +11,11 @@ var allItems = document.getElementsByTagName("li")
 for(i of allItems){
     console.log(i.textContent)
 }
+
+//Harj d
+var body = document.querySelector("body")
+var allNodes = body.querySelectorAll("*")
+
+for (x of allNodes) {
+    console.log(x.nodeName)
+}
