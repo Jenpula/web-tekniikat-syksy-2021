@@ -25,3 +25,8 @@ var article = document.querySelector("article")
 for(a of article.querySelectorAll("p")){
     console.log("**" + a.textContent);
 }
+
+//Harj f
+for(i of allItems){
+    i.textContent = "Johny"
+}
