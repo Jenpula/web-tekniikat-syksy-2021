@@ -10,3 +10,17 @@ body {
 [class^="navbar"] {
     padding: 10px;
 }
+li:hover {
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    color: grey;
+}
+a:hover {
+    color: black;
+}
+h1,h3 {
+    padding: 10px;
+    
+}
