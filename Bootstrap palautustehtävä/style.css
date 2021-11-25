@@ -20,7 +20,14 @@ a {
 a:hover {
     color: black;
 }
-h1,h3 {
+h3, h5{
     padding: 10px;
     
+}
+.accordion {
+    padding: 20px;
+}
+.btn {
+    width: 100%;
+    padding: 10px;
 }
