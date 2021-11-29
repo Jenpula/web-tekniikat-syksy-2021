@@ -17,9 +17,13 @@ function addCourse(){
 }
 
 function showAll() {
+    // käydään läpi kaikki kurssit taulukosta
     courses.forEach( course => {
+        // Luodaan kurssille list-item
         let li = document.createElement("li");
+        // lisätään itemiin kurssin tiedot oliosta
         li.textContent = "Course " + course.course_name + " has " + course.num + " students registered"
+        // lisätään list-item sivulle
         document.querySelector("ul").appendChild(li);
     });
         
