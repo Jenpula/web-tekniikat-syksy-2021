@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box; 
+    font-family: sans-serif;
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+  }
+  #content {
+    display: flex;
+    flex: 1;
+    
+  }
+  #content > article {
+    flex: 1;
+    text-align: center;
+  }
+  #content > nav {
+    flex: 0 0 10vw;
+    background: #9C637E;
+    order: -1;
+    text-align:justify;
+    padding: 10px;
+    
+  }
+  a {
+      text-decoration: none;
+  }
+  h1 {
+    padding: 10px;
+  }
+  
+  header, footer {
+    background: #B08298;
+    height: 20vh;
+  }
+  header, footer, article, nav {
+    padding: 5px;
+   
+  }
+  p {
+   margin: 3px;
+  }
+  
+ 
