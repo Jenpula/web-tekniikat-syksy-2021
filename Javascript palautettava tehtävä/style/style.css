@@ -16,10 +16,11 @@
   #content > article {
     flex: 1;
     text-align: center;
+
   }
   #content > nav {
     flex: 0 0 10vw;
-    background: #9C637E;
+    background: #6992f0;
     order: -1;
     text-align:justify;
     padding: 10px;
@@ -33,15 +34,23 @@
   }
   
   header, footer {
-    background: #B08298;
+    background: #4D6BB0;
     height: 20vh;
   }
   header, footer, article, nav {
     padding: 5px;
+    margin: 5px;
    
   }
   p {
    margin: 3px;
   }
   
+#text {
+  text-align: center;
+  margin: 10px;
+}
+button {
+ margin: 5px;
+}
  
