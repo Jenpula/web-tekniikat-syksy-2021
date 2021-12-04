@@ -31,10 +31,11 @@
   }
   h1 {
     margin: 5px;
+    color: grey;
   }
   
   header, footer {
-    background: #4D6BB0;
+    background: #ffe5cc;
     height: 20vh;
   }
   header, footer, article, nav {
