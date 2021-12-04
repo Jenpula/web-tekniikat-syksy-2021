@@ -20,17 +20,17 @@
   }
   #content > nav {
     flex: 0 0 10vw;
-    background: #6992f0;
     order: -1;
     text-align:justify;
-    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
     
   }
   a {
       text-decoration: none;
   }
   h1 {
-    padding: 10px;
+    margin: 5px;
   }
   
   header, footer {
@@ -43,14 +43,18 @@
    
   }
   p {
-   margin: 3px;
+   margin: 5px;
+   padding: 5px;
   }
   
 #text {
-  text-align: center;
   margin: 10px;
 }
 button {
  margin: 5px;
 }
+img {
+  margin: 10px;
+}
+
  
