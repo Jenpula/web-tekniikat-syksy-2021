@@ -6,12 +6,13 @@ function newFunction() {
 
 }
 document.querySelector("#positive").addEventListener("click", function() {
-    document.getElementById("feedback").innerHTML = "Hienoa että löysit tarvitsemasi<p> Jaa sivu myös ystävillesi!"
+    document.getElementById("feedback").innerHTML = "<p>Hienoa että löysit tarvitsemasi<p> Jaa sivu myös ystävillesi!"
 });
 
 document.querySelector("#negative").addEventListener("click", buttonFunction);
 document.querySelector("#negative2").addEventListener("click", buttonFunction);
 
 function buttonFunction() {
-    document.getElementById("feedback").innerHTML = "Mitä tietoa etsit sivulta? Vastaamalla autat meitä kehittämään sivustoamme!"
+    document.getElementById("feedback").innerHTML = "<p>Mitä tietoa etsit sivulta? Vastaamalla autat meitä kehittämään sivustoamme! <p>  <input type='text'> <button id='sendButton'>Lähetä</button>"
 };
+
