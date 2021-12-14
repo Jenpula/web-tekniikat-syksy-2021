@@ -9,7 +9,7 @@ let checkbox = document.getElementById("important");
 function addNote(){
     //Luodaan otsikko johon tulee nimi-kentästä nimi ja lisäksi aikaleima
     let h3 = document.createElement("h3");
-    h3.textContent = user.value + "  " + new Date().toLocaleString();
+    h3.textContent = user.value
     //Note lisätään tekstinä p-elementtiin textareasta
     let p = document.createElement("p");
     p.textContent = note.value
