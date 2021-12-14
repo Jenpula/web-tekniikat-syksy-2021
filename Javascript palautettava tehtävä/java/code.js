@@ -1,7 +1,7 @@
 
 // Tehty http requesti
 let xmlhttp = new XMLHttpRequest();
-xmlhttp.open("GET", "https://api.covid19api.com/dayone/country/finland/status/confirmed/live", true)
+xmlhttp.open("GET", "https://api.covid19api.com/live/country/finland/status/confirmed", true)
  
 // lähetetty requesti
 xmlhttp.send();
@@ -13,32 +13,14 @@ xmlhttp.onreadystatechange=function() {
     {
         let answerObject = JSON.parse(this.response);
         
-        document.getElementById("feedback2").innerHTML= answerObject[answerObject.length-1].Cases
-        document.getElementById("covid19Date").innerHTML = answerObject[answerObject.length-1].Date
+        document.getElementById("feedback2").innerHTML= answerObject[answerObject.length-1].Active
+        document.getElementById("feedback3").innerHTML= answerObject[answerObject.length-1].Confirmed
+        document.getElementById("feedback4").innerHTML= answerObject[answerObject.length-1].Deaths
+        document.getElementById("covid19Date").innerHTML = answerObject[answerObject.length-1].Date 
+
     }
 
   }
- 
-  
- // searchbar
- document.querySelector('#searchButton').addEventListener("click", submitted);
-function submitted() {
-  type="text/javascript">
-document.getElementById('searchform').onsubmit
-    window.location = 'http://www.google.com/search?q=site:index.html' + document.getElementById('test').value;
-    return false;
-}
-
-
-
- 
- 
- 
-
-
-
-
-
 
 document.querySelector("#navButton").addEventListener("click", newFunction);
 
