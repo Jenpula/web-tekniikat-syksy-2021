@@ -27,7 +27,7 @@ document.querySelector("#navButton").addEventListener("click", newFunction);
 
 
 function newFunction() {
-    document.getElementById("text").innerHTML = "<h3>Tutustumaan palveluihimme pääset ottamalla yhteyttä puhelinnumeroomme, lähettämällä sähköpostia tai tulemaan paikanpäälle. <p>Tarjoamme ensimmäisen kerran ilmaiseksi.!</h3> <p> Ota yhtettä: <p>puh: 0505503465 <p> Sähköp. hyväolo@gmail.com<p> Osoite: Jukolankuja 2 90350 Oulu<p>"
+    document.getElementById("text").innerHTML = "<h3>Tutustumaan palveluihimme pääset ottamalla yhteyttä puhelinnumeroomme, lähettämällä sähköpostia tai tulemaan paikanpäälle. <p>Tarjoamme ensimmäisen kerran ilmaiseksi!</h3> <p> Ota yhtettä: <p>puh: 0505503465 <p> Sähköp. hyväolo@gmail.com<p> Osoite: Jukolankuja 2 90350 Oulu<p>"
 
 }
 // Button which shows feedback for user.
