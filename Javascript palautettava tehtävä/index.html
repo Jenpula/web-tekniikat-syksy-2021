@@ -1,71 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!--Javascript-->
-    <script src="./java/code.js" defer></script>
-    <!--CSS-->
-    <link rel="stylesheet" href="./style/style.css">
-</head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!--Javascript-->
+	<script src="./java/code.js" defer></script>
+	<!--CSS-->
+	<link rel="stylesheet" href="./style/style.css"> </head>
 <body>
-    <!--Header-->
-    <header>
-        <h1>HyväOlo</h1>
-        <button id="navButton" style="text-align: right;">Tutustu ilmaiseksi</button>
-    </header>
-  <div id="content">
-      <!--Article-->
-    <article>
-        <div id="text"></div>
-            <h1>Kuntosali HyväOlo - Kuntosali normaaleille ihmisille</h1>
-            <img src="./images/gym-picture.jpg" style="height: 400px;" alt="Gym">
-            <h3 style="color: red">Päivittäinen koronavirustartuntaluku. Muuttuvan tilanteen vuoksi, tästä näet päivittäiset koronavirustartunnat. Seuraamme päivittäin THL antamia ohjeistuksia, ja sali pysyy pystyssä kun noudatamme annettuja ohjeita! ethän siis tule oireisena kuntosalille ja muistat käsihygienian. Näin pidämme salimme mahdollisimman pitkään auki!</h3>
-            <p>Päivämäärä</p>
-            <div id="covid19Date"></div>
-            <p>Aktiiviset koronavirustartunnat</p>
-            <div id="feedback2"></div>
-            <p>Varmistetut tautitapaukset</p>
-            <div id="feedback3"></div>
-            <p>Koronakuolemat</p>
-            <div id="feedback4"></div>
-                <p id="textArea"> 
-                Hyväolo on monipuolinen ja kotimainen liikuntakeskusketju.
-                Tilamme ovat tyylikkäät sekä laitteet laadukkaat ja helppokäyttöiset. Keskuksestamme löydät laadukkaat ja nykyaikaiset Technogym-kuntosalilaitteet. Tarjoamme edulliset toistaiseksi voimassa olevat asiakkuudet ilman sitoutumista, laadukkaan kuntosalin ja päivittäin runsaan valikoiman live- ja virtuaaliohjattuja ryhmäliikuntatunteja. Opiskelijat, seniorit, työttömät, 13–16 vuotiaat, varusmiehet ja siviilipalvelusta maksavat 20 €/kk. Normaalisti salimaksu 24,90€/kk.
-                 Keskiviikkoisin 18.00–20.00 voit tulla ilmaiselle kokeilulle. Tunnilla opastetaan kuntosalilaitteiden käyttöön sekä annetaan venyttelyvinkkejä.</p>
-                <h2>AVOINNA JÄSENILLE JOKA PÄIVÄ KLO 5-23</h2><p></p>
-        <h1>Näillä maksuvälineillä maksat kuntosalimaksun</h1>
-           <p><strong> Maksutavat:</strong></p>
-           <li> Käteisellä </li>
-           <li>Pankkikorteilla</li>
-           <li>Luottokunta Oy:n luottokorteilla</li>
-           <li>ePassilla</li>
-           <li>Smartumilla</li>
-           <p><strong>Löysitkö etsimäsi tiedon tältä sivulta?</strong></p>
-           <button id="positive">Kyllä löysin</button>
-           <button id="negative">Osittain</button>
-           <button id="negative2">En löytänyt</button>
-           <div id="feedback"></div>
-    </article>
-    <!--Nav-->
-    <nav>
-        <ul>
-            <!--Services and contacts is not working because this assignment required only one page.-->
-           <h3><li><a href="index.html">Etusivu</a></li></h3>
-            <h3><li><a href="#">Palvelut</a></li></h3>
-            <h3><li><a href="#">Yhteystiedot</a></li></h3>
-           
-        </ul>
-    </nav>
-  </div>
-  <!--Footer-->
-  <footer>
-      <h3>Yhteystiedot:</h3>
-      <p>puh: 0505503465 |
-      Sähköp. hyväolo@gmail.com |
-      Osoite: Jukolankuja 2 90350 Oulu</p>
-  </footer>
+	<!--Header-->
+	<header>
+		<h1>HyväOlo</h1>
+		<button id="navButton" style="text-align: right;">Tutustu ilmaiseksi</button>
+	</header>
+	<div id="content">
+		<!--Article-->
+		<article>
+			<div id="text"></div>
+			<h1>Kuntosali HyväOlo - Kuntosali normaaleille ihmisille</h1> <img src="./images/gym-picture.jpg" style="height: 400px;" alt="Gym">
+			<h3 style="color: red">Päivittäinen koronavirustartuntaluku. Muuttuvan tilanteen vuoksi, tästä näet päivittäiset koronavirustartunnat. Seuraamme päivittäin THL antamia ohjeistuksia, ja sali pysyy pystyssä kun noudatamme annettuja ohjeita! ethän siis tule oireisena kuntosalille ja muistat käsihygienian. Näin pidämme salimme mahdollisimman pitkään auki!</h3>
+			<p>Päivämäärä</p>
+			<div id="covid19Date"></div>
+			<p>Aktiiviset koronavirustartunnat</p>
+			<div id="feedback2"></div>
+			<p>Varmistetut tautitapaukset</p>
+			<div id="feedback3"></div>
+			<p>Koronakuolemat</p>
+			<div id="feedback4"></div>
+			<p id="textArea"> Hyväolo on monipuolinen ja kotimainen liikuntakeskusketju. Tilamme ovat tyylikkäät sekä laitteet laadukkaat ja helppokäyttöiset. Keskuksestamme löydät laadukkaat ja nykyaikaiset Technogym-kuntosalilaitteet. Tarjoamme edulliset toistaiseksi voimassa olevat asiakkuudet ilman sitoutumista, laadukkaan kuntosalin ja päivittäin runsaan valikoiman live- ja virtuaaliohjattuja ryhmäliikuntatunteja. Opiskelijat, seniorit, työttömät, 13–16 vuotiaat, varusmiehet ja siviilipalvelusta maksavat 20 €/kk. Normaalisti salimaksu 24,90€/kk. Keskiviikkoisin 18.00–20.00 voit tulla ilmaiselle kokeilulle. Tunnilla opastetaan kuntosalilaitteiden käyttöön sekä annetaan venyttelyvinkkejä.</p>
+			<h2>AVOINNA JÄSENILLE JOKA PÄIVÄ KLO 5-23</h2>
+			<p></p>
+			<h1>Näillä maksuvälineillä maksat kuntosalimaksun</h1>
+			<p><strong> Maksutavat:</strong></p>
+			<li> Käteisellä </li>
+			<li>Pankkikorteilla</li>
+			<li>Luottokunta Oy:n luottokorteilla</li>
+			<li>ePassilla</li>
+			<li>Smartumilla</li>
+			<p><strong>Löysitkö etsimäsi tiedon tältä sivulta?</strong></p>
+			<button id="positive">Kyllä löysin</button>
+			<button id="negative">Osittain</button>
+			<button id="negative2">En löytänyt</button>
+			<div id="feedback"></div>
+		</article>
+		<!--Nav-->
+		<nav>
+			<ul>
+				<!--Services and contacts is not working because this assignment required only one page.-->
+				<h3><li><a href="index.html">Etusivu</a></li></h3>
+				<h3><li><a href="#">Palvelut</a></li></h3>
+				<h3><li><a href="#">Yhteystiedot</a></li></h3> </ul>
+		</nav>
+	</div>
+	<!--Footer-->
+	<footer>
+		<h3>Yhteystiedot:</h3>
+		<p>puh: 0505503465 | Sähköp. hyväolo@gmail.com | Osoite: Jukolankuja 2 90350 Oulu</p>
+	</footer>
 </body>
 </html>
