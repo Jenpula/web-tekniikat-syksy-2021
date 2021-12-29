@@ -1,3 +1,3 @@
-# web-tekniikat-syksy-2021
-Web-tekniikan kurssin kaikki tehtävät on tallennettu tähän kansioon.
-Kansiossa on bootstrap tehtäviä sekä javascript harjoituksia.
+# Hei käyttäjä!
+Tästä kansiosta löydät bootstrap sekä javascript harjoituksia, joita on käyty läpi OAMK tietojenkäsittelyn web-tekniikat kurssilla.
+Syksyn 2021 kurssi
