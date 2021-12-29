@@ -1,4 +1,4 @@
-# web-tekniikat-syksy-2021
+# Hei käyttäjä!
 Web-tekniikan kurssin melkein kaikki tehtävät on tallennettu tähän kansioon.
 Kansiossa on bootstrap tehtäviä sekä javascript harjoituksia.
 Syksyn 2021 kurssi
